@@ -2,3 +2,181 @@
 @import "nullstyle.scss";
 //-------
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+$fc-yel: #FFCC00;
+$fc-bl: #252525;
+
+@mixin flex-container($dir: row, $jus: center, $ali: center) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $jus;
+    align-items: $ali;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.header {
+
+    // .header__container
+
+
+    // .header__top
+
+    &__top {
+    }
+
+    // .header__column1
+
+    &__column1 {
+    }
+
+    // .header__logo-wrapper
+
+    &__logo-wrapper {
+    }
+
+    // .header__column2
+
+    &__column2 {
+    }
+
+    // .header__top-panel
+
+    &__top-panel {
+    }
+
+    // .header__top-menu
+
+    &__top-menu {
+    }
+
+    // .header__login-panel
+
+    &__login-panel {
+    }
+
+    // .header__login
+
+    &__login {
+    }
+
+    // .header__separator
+
+    &__separator {
+    }
+
+    // .header__registration
+
+    &__registration {
+    }
+
+    // .header__bottom-panel
+
+    &__bottom-panel {
+    }
+
+    // .header__banner
+
+    &__banner {
+    }
+
+    // .header__cart
+
+    &__cart {
+    }
+
+    // .header__contacts
+
+    &__contacts {
+    }
+
+    // .header__time
+
+    &__time {
+    }
+
+    // .header__phone
+
+    &__phone {
+    }
+
+    // .header__link
+
+    &__link {
+    }
+
+    // .header__area
+
+    &__area {
+    }
+
+    // .header__city
+
+    &__city {
+    }
+
+    // .header__selection
+
+    &__selection {
+    }
+
+    // .header__main-menu
+
+    &__main-menu {
+    }
+}
+.container {
+}
+.menu {
+
+    // .menu__list
+
+    &__list {
+    }
+
+    // .menu__item
+
+    &__item {
+    }
+
+    // .menu__link
+
+    &__link {
+    }
+
+    // .menu__serch
+
+    &__serch {
+    }
+
+    // .menu__sale
+
+    &__sale {
+    }
+}
+.cart {
+
+    // .cart__list
+
+    &__list {
+    }
+
+    // .cart__item
+
+    &__item {
+    }
+
+    // .cart__products
+
+    &__products {
+    }
+
+    // .cart__product-1
+
+    &__product-1 {
+    }
+}

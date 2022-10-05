@@ -435,6 +435,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.header__product {
+  cursor: pointer;
+}
 .header__product:not(:last-child) {
   margin-right: 16px;
 }

@@ -1,5 +1,3 @@
-adaptiveMenu();
-
 function adaptiveBurger() {
     const menu = document.querySelector('.menu__list');
     const hamburger = document.querySelector('.hamburger');
